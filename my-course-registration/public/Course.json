@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "courseName": "Introduction to C Programming",
+      "instructor": "John Doe",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 299.99,
+      "credit": 3,
+      "image": "https://i.ibb.co/gRjzLwd/Introduction-to-C-Programming.png"
+    },
+    {
+      "id": 2,
+      "courseName": "Introduction to Algorithms",
+      "instructor": "Jane Doe",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 349.99,
+      "credit": 4,
+      "image": "https://i.ibb.co/55XtrCs/Introduction-to-Algorithms.png"
+    },
+    {
+      "id": 3,
+      "courseName": "Introduction to C++ for DSA",
+      "instructor": "Peter Parker",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 449.99,
+      "credit": 4,
+      "image": "https://i.ibb.co/FqzNkdt/Introduction-to-C-for-DSA.png"
+    },
+    {
+      "id": 4,
+      "courseName": "Basic Data Structures",
+      "instructor": "Mary Jane Watson",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 549.99,
+      "credit": 5,
+      "image": "https://i.ibb.co/RzKFpvv/Basic-Data-Structures.png"
+    },
+    {
+      "id": 5,
+      "courseName": "Introduction to OOP Python",
+      "instructor": "Miles Morales",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 299.99,
+      "credit": 3,
+      "image": "https://i.ibb.co/MRpWfSk/Introduction-to-OOP-Python.png"
+    },
+    {
+      "id": 6,
+      "courseName": "Software Engineering",
+      "instructor": "Gwen Stacy",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 299.99,
+      "credit": 3,
+      "image": "https://i.ibb.co/L0PPqvj/Software-Engineering.png"
+    },
+    {
+      "id": 7,
+      "courseName": "AWS, Cloud Computing",
+      "instructor": "Ben Reilly",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 249.99,
+      "credit": 2,
+      "image": "https://i.ibb.co/GvZkjHw/AWS-Cloud-Computing.png"
+    },
+    {
+      "id": 8,
+      "courseName": "Database (MySQL)",
+      "instructor": "Cissy Jones",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 299.99,
+      "credit": 3,
+      "image": "https://i.ibb.co/nfKbstP/Database-My-SQL.png"
+    },
+    {
+      "id": 9,
+      "courseName": "Problem-Solving Part",
+      "instructor": "Silver Sable",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 299.99,
+      "credit": 3,
+      "image": "https://i.ibb.co/1sX27fZ/Problem-Solving-Part.png"
+    }
+]
