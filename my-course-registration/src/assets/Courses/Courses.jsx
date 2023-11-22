@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Course from "../Course/Course";
 
-const Courses = () => {
+const Courses = ({handleAddToLists}) => {
     
     const [courses,setCourses]= useState([]) 
     
@@ -11,7 +11,7 @@ const Courses = () => {
         .then(data => setCourses(data))
     },[])
     return (
-        <div>
+        <div className="w-2/3">
             <h3>Courses List : {courses.length}</h3>
 
             <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-2 m-2">
@@ -19,6 +19,7 @@ const Courses = () => {
                 courses.map(course=> 
                 <Course
                  key={course.id}
+                 handleAddToLists={handleAddToLists}
                   course={course}>
                   </Course>)
             }
