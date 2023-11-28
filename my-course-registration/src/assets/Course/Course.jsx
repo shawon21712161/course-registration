@@ -51,7 +51,7 @@ const Course = ({course,handleAddToLists}) => {
   <div className="text-center mx-3">
     <button 
       onClick={()=>handleAddToLists(course)} 
-      className="bg-blue-600 text-white font-semibold py-2 rounded-lg px-16">Buy 
+      className="bg-blue-600 text-white font-semibold py-2 rounded-lg px-16">Select 
     </button>
     </div>
 </div>

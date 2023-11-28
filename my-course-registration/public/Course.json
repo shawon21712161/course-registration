@@ -5,7 +5,7 @@
       "instructor": "John Doe",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 299,
-      "credit": 3,
+      "credit": 5,
       "image": "https://i.ibb.co/gRjzLwd/Introduction-to-C-Programming.png"
     },
     {
@@ -14,7 +14,7 @@
       "instructor": "Jane Doe",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 349,
-      "credit": 4,
+      "credit": 6,
       "image": "https://i.ibb.co/55XtrCs/Introduction-to-Algorithms.png"
     },
     {
@@ -23,7 +23,7 @@
       "instructor": "Peter Parker",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 449,
-      "credit": 4,
+      "credit": 5,
       "image": "https://i.ibb.co/FqzNkdt/Introduction-to-C-for-DSA.png"
     },
     {
@@ -32,7 +32,7 @@
       "instructor": "Mary Jane Watson",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 549,
-      "credit": 5,
+      "credit": 7,
       "image": "https://i.ibb.co/RzKFpvv/Basic-Data-Structures.png"
     },
     {
@@ -41,7 +41,7 @@
       "instructor": "Miles Morales",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 299,
-      "credit": 3,
+      "credit": 5,
       "image": "https://i.ibb.co/MRpWfSk/Introduction-to-OOP-Python.png"
     },
     {
@@ -50,7 +50,7 @@
       "instructor": "Gwen Stacy",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 299,
-      "credit": 3,
+      "credit": 6,
       "image": "https://i.ibb.co/L0PPqvj/Software-Engineering.png"
     },
     {
@@ -59,7 +59,7 @@
       "instructor": "Ben Reilly",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 249,
-      "credit": 2,
+      "credit": 4,
       "image": "https://i.ibb.co/GvZkjHw/AWS-Cloud-Computing.png"
     },
     {
@@ -77,7 +77,7 @@
       "instructor": "Silver Sable",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "price": 299,
-      "credit": 3,
+      "credit": 6,
       "image": "https://i.ibb.co/1sX27fZ/Problem-Solving-Part.png"
     }
 ]
