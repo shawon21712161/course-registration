@@ -4,13 +4,14 @@ import List from "../List/List";
 const Lists = ({lists}) => {
     const [price, setprice] = useState(0)
     const [credit, setcredit] = useState(0)
+    const [remaingCredit, setRemaingCredit] = useState(20);
     return (
-        <div className="w-1/3 m-4 mt-4 h-96 rounded-lg p-4 text-center bg-slate-200">
+        <div className="w-1/3 m-2 mt-4 h-96  rounded-lg p-1 text-center ">
 
-            <h2 className="border-b-2 border-b-gray-400 font-semibold text-2xl text-left py-3 text-blue-700">Credit Hour Remaining Hr</h2>
+            <h2 className="border-b-2 border-b-gray-400 font-bold text-2xl text-left py-3 text-blue-700">Credit Hour Remaining {remaingCredit} Hr</h2>
 
-            <h2 className=" font-semibold text-2xl text-left py-2">Course Name </h2>
-            <hr />
+            <h2 className=" font-bold text-2xl text-left py-2">Course Name </h2>
+            
             <div className="pb-4 border-b-2 border-b-gray-400">
                 {
                     lists.map(list=> 
@@ -21,6 +22,8 @@ const Lists = ({lists}) => {
                     list={list}
                     credit={credit}
                     setcredit={setcredit}
+                    setRemaingCredit={setRemaingCredit}
+                    remaingCredit={remaingCredit}
                     ></List>)
                 }
             </div>

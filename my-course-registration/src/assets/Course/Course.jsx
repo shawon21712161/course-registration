@@ -32,7 +32,7 @@ const Course = ({course,handleAddToLists}) => {
 
   {/* 2nd card */}
 
-<div className="p-2 m-2 bg-slate-200 h-full w-full rounded-md">
+<div className="p-2 m-2  h-full w-full rounded-md">
   <div>
     <img className="w-full" src={image} />
   </div>

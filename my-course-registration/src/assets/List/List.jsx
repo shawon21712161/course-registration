@@ -1,20 +1,31 @@
 import { useEffect } from "react";
+import toast from "react-hot-toast";
 
-const List = ({credit,setcredit,price,setprice,list}) => {
+const List = ({credit,setcredit,price,setprice,list,setRemaingCredit,remaingCredit}) => {
     const {courseName} = list
 
     useEffect(()=>{
-        setprice(price+list.price)
+        if(credit+list.credit <= 20){
+            setprice(price+list.price)
+            setRemaingCredit(remaingCredit - list.credit)
+        }
+        
     },[])
 
     useEffect(()=>{
-        setcredit(credit+list.credit)
+        if(credit+list.credit <= 20){
+            setcredit(credit+list.credit)
+        }
+        else{
+            toast.error("Sorry")
+        }
+        
     },[])
     return (
         <div>
 
         
-        <div className="pt-2 border-b-2">
+        <div className="pt-2 ">
             {/* <h3 className="font-semibold">{courseName}</h3> */}
             
            

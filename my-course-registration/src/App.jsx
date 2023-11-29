@@ -13,6 +13,7 @@ function App() {
     // console.log(course);
     // console.log(lists);
     const foundData = lists.find((item)=>item.id == course.id)
+    
     if(!foundData){
       const newLists = [...lists,course]
       setLists(newLists)
