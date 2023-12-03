@@ -8,19 +8,11 @@ const List = ({credit,setcredit,price,setprice,list,setRemaingCredit,remaingCred
         if(credit+list.credit <= 20){
             setprice(price+list.price)
             setRemaingCredit(remaingCredit - list.credit)
-        }
-        
-    },[])
-
-    useEffect(()=>{
-        if(credit+list.credit <= 20){
             setcredit(credit+list.credit)
         }
-        else{
-            toast.error("Sorry")
-        }
-        
     },[])
+
+    
     return (
         <div>
 

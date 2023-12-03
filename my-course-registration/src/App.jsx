@@ -6,6 +6,7 @@ import Lists from './assets/Lists/Lists'
 import toast, { Toaster } from 'react-hot-toast';
 
 const notify = () => toast.error("You Already Selected This Course");
+const notify2 = () => toast.error("Credit limit over");
 
 function App() {
   const [lists, setLists] = useState([])
@@ -13,7 +14,11 @@ function App() {
     // console.log(course);
     // console.log(lists);
     const foundData = lists.find((item)=>item.id == course.id)
+    const currentTotal = lists.reduce((previousValue, currentValue) => previousValue+currentValue.credit, 0)
     
+    // console.log(currentTotal);
+
+if(currentTotal + course.credit <= 20){
     if(!foundData){
       const newLists = [...lists,course]
       setLists(newLists)
@@ -22,6 +27,9 @@ function App() {
       // console.log("already exist");
       notify()
     }
+  }else{
+    notify2()
+  }
    
   }
 

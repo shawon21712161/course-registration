@@ -16,10 +16,7 @@ const Courses = ({handleAddToLists}) => {
 
             <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-2 m-2">
             {
-                courses.map(course=> 
-                <Course
-                 key={course.id}
-                 handleAddToLists={handleAddToLists}
+                courses.map(course=> <Course key={course.id} handleAddToLists={handleAddToLists}
                   course={course}>
                   </Course>)
             }
